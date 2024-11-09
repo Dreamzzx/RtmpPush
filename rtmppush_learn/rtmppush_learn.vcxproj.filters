@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="MediaPushWindow">
+      <UniqueIdentifier>{c0536aef-16c9-4a2a-8e67-a71c2fee65db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{3b029fa8-3f40-42f1-a056-70919b9f522e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QCameraSurface">
+      <UniqueIdentifier>{43653619-af59-4045-9200-4a69ff7a0ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoEncode">
+      <UniqueIdentifier>{b9d76ed1-1437-4452-aded-521cf3435d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RtmpPush">
+      <UniqueIdentifier>{25ad08a9-685c-44a9-b0a8-53c434029cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AudioEncode">
+      <UniqueIdentifier>{8b44602a-5059-495e-baff-b687bcb2bc5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AudioCapture">
+      <UniqueIdentifier>{a6221aa9-615c-4a1e-b46e-e3cfae1d1512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SwrResample">
+      <UniqueIdentifier>{00494f95-4bfa-430a-aacc-4f3c5a58b80c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaPushWindow.cpp">
+      <Filter>MediaPushWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="QCameraSurface.cpp">
+      <Filter>QCameraSurface</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoEncodeFF.cpp">
+      <Filter>VideoEncode</Filter>
+    </ClCompile>
+    <ClCompile Include="RtmpPush.cpp">
+      <Filter>RtmpPush</Filter>
+    </ClCompile>
+    <ClCompile Include="AacEncoder.cpp">
+      <Filter>AudioEncode</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioCaputure.cpp">
+      <Filter>AudioCapture</Filter>
+    </ClCompile>
+    <ClCompile Include="SwrResample.cpp">
+      <Filter>SwrResample</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MediaPushWindow.h">
+      <Filter>MediaPushWindow</Filter>
+    </QtMoc>
+    <QtMoc Include="QCameraSurface.h">
+      <Filter>QCameraSurface</Filter>
+    </QtMoc>
+    <QtMoc Include="AudioCaputure.h">
+      <Filter>AudioCapture</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VideoEncodeFF.h">
+      <Filter>VideoEncode</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoEncode.h">
+      <Filter>VideoEncode</Filter>
+    </ClInclude>
+    <ClInclude Include="RtmpPush.h">
+      <Filter>RtmpPush</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioEncode.h">
+      <Filter>AudioEncode</Filter>
+    </ClInclude>
+    <ClInclude Include="AacEncoder.h">
+      <Filter>AudioEncode</Filter>
+    </ClInclude>
+    <ClInclude Include="SwrResample.h">
+      <Filter>SwrResample</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MediaPushWindow.qrc">
+      <Filter>MediaPushWindow</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MediaPushWindow.ui">
+      <Filter>MediaPushWindow</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>
